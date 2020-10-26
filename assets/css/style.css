@@ -75,7 +75,10 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
+    background-image: url(/assets/img/wood.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*===== NAV =====*/
@@ -133,7 +136,9 @@ img{
 
 /*=== HOME ===*/
 .home{
-    background-color: var(--first-color);
+    background-image: url(/assets/img/wood.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
   }
   
